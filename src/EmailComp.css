@@ -1,0 +1,42 @@
+
+
+label {
+  display: block;
+  font-family: roboto-b;
+  margin: 4rem 0 0.7rem 0;
+  position: relative;
+}
+
+form label span{
+    position: absolute;
+    right: 0;
+    text-align: right;
+}
+form:invalid label span{
+    color: var(--Tomato)
+}
+
+form input {
+  display: block;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 2rem;
+  padding: 1.4rem 1rem;
+  border: none;
+  border: 1px solid var(--Grey);
+  border-radius: 6px;
+}
+
+form input::placeholder {
+  font-family: roboto-b;
+  color: var(--Grey);
+}
+
+form input:focus {
+  outline: none;
+}
+
+form input:focus:invalid {
+  border: 2px solid var(--Tomato);
+  background-color: #ff625733;
+}

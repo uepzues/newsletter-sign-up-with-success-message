@@ -1,0 +1,12 @@
+div > h1 {
+    font-family: roboto-b;
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+
+  div > p{
+    font-family: roboto-r;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin: 2rem 0;
+  }

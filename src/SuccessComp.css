@@ -1,0 +1,23 @@
+@media screen and (min-width: 700px) {
+  .success {
+    display: flex;
+    width: 390px;
+    height: 400px;
+    background-color: var(--White);
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+  }
+
+  .success > div {
+    padding: 2rem 4rem;
+  }
+
+  .success > div img {
+    width: 5rem;
+  }
+
+  .success > div > div:nth-child(3) {
+    border: 2px solid red;
+  }
+}

@@ -1,0 +1,13 @@
+ button{
+    width: 100%;
+    padding: 1.4rem 2rem;
+    background-color: var(--Dark-SlateGrey);
+    color: white;
+    font-family: roboto-b;
+    letter-spacing: .5px;
+    border: none;
+    border-radius: 7px;
+}
+button:hover{
+    background-color: var(--Tomato);
+}

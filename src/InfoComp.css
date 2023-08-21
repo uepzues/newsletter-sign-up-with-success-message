@@ -1,0 +1,10 @@
+.check{
+    display: block;
+    float: left;
+    
+}
+p.info {
+  display: block;
+  padding-left: 3.5rem;
+  float: clear;
+}
