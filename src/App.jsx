@@ -37,10 +37,9 @@ function App() {
         <main>
           <ImgComp />
           <div>
-            <NewsLetterComp
-              header="Stay updated!"
-              text="Join 60,000+ product managers receiving monthly updates on:"
-            />
+            <NewsLetterComp header="Stay updated!">
+              Join 60,000+ product managers receiving monthly updates on:
+            </NewsLetterComp>
             <InfoComp info="Product discovery and building what matters" />
             <InfoComp info="Measuring to ensure updates are a success" />
             <InfoComp info="And much more!" />
@@ -62,10 +61,11 @@ function App() {
       {isVis && (
         <div className="success">
           <img src={iconSuccess} alt="success icon" />
-          <NewsLetterComp
-            header="Thanks for subscribing!"
-            text={`A confirmation email has been sent to ${formData.email}. Please open it and click the button inside to confirm your subscription.`}
-          />
+          <NewsLetterComp header="Thanks for subscribing!">
+            A confirmation email has been sent to <b>{formData.email}</b>.
+            Please open it and click the button inside to confirm your
+            subscription.
+          </NewsLetterComp>
           <div>
             <button onClick={dismissSuccessMessage} type="submit">
               Dismiss Message
